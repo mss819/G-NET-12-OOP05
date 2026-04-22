@@ -45,6 +45,18 @@
             //بينسخ object كامل (نسخة مستقلة)
 
             #endregion
+
+            #region Question 4
+
+            //var e1 = new Employee { Title = "Dev", Dept = new Department { Name = "IT" } };
+            //var e2 = e1.ShallowCopy();
+
+            //e2.Title = "QA";
+            //e2.Dept.Name = "Testing";
+
+            //Title → Value → اتغير في e2 بس
+            //Dept → Reference → الاتنين بيشاوروا على نفس object
+            #endregion
         }
     }
 }
