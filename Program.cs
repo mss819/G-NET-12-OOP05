@@ -34,6 +34,17 @@
             //((IArabicSpeaker)translator).Greet();
 
             #endregion
+
+            #region Question 3
+
+            //Shallow Copy
+            //بينسخ القيم بس
+            //الـ reference بيبقى مشترك
+
+            //Deep Copy
+            //بينسخ object كامل (نسخة مستقلة)
+
+            #endregion
         }
     }
 }
