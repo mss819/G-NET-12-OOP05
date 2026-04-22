@@ -11,6 +11,29 @@
             //بيخلي الكود قابل للتطوير والتعديل بسهولة
 
             #endregion
+
+            #region Question 2
+
+            //الكلاس عامل method واحدة:
+            // علشان كد مش مفرق بين الانجليزي و العربي 
+            // الحل
+            //    class Translator : IEnglishSpeaker, IArabicSpeaker
+            //{
+            //    void IEnglishSpeaker.Greet()
+            //    {
+            //        Console.WriteLine("Hello");
+            //    }
+
+            //    void IArabicSpeaker.Greet()
+            //    {
+            //        Console.WriteLine("Ahlan");
+            //    }
+            //}
+            //c) لازم 
+            //((IEnglishSpeaker)translator).Greet();
+            //((IArabicSpeaker)translator).Greet();
+
+            #endregion
         }
     }
 }
