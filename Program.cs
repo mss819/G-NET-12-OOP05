@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Question 1
+
+            //عقد (Contract) بيحدد methods بس من غير implementation
+            //بيساعد في Polymorphism
+            //بيخلي الكود قابل للتطوير والتعديل بسهولة
+
+            #endregion
         }
     }
 }
